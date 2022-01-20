@@ -25,6 +25,7 @@ h2{
     font-size: 8vw;
     text-transform: uppercase;
     margin-bottom: 20px;
+    color:#eeeded;
 }
 
 /* universal styling ends here */
@@ -47,7 +48,7 @@ h2{
     flex-wrap: wrap;
     gap:30px;
     padding:20px;
-    background-color: #797979;
+    background-color: #2e2e2e;
 }
 
 .nav-link{
@@ -87,14 +88,12 @@ color:#e7f1f1;
 /* welcome styling */
 
 #welcome-section{
-   
     height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/food/), linear-gradient(rgb(22, 22, 66,.95),rgb(16, 11, 48,.95));
-    background-blend-mode: multiply;
+    background: linear-gradient(rgb(7, 7, 22),rgb(24, 18, 61));
 }
 
 h1{
@@ -117,11 +116,11 @@ h1{
 /* projects section styling starts here  */
 
 #projects{
-    background-color: grey;
+    background-color: #2e2e2e;
     
 }
 
-#projects>h3{
+#projects>h2{
 
 }
 
@@ -165,4 +164,17 @@ animation-iteration-count: infinite;
     margin-top:5px;
 
     font-size: 1.6em;
+}
+
+
+#contact-section{
+    background:linear-gradient(rgb(7, 7, 22),rgb(24, 18, 61)); ;
+
+
+}
+
+
+#footer{
+    background-color: #2e2e2e;
+    padding:2em;
 }
